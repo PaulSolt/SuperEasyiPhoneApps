@@ -1,5 +1,6 @@
 #How to Use NSNumberFormatter in Swift to Make Currency Numbers Easy to Read Typically, when you go to display a number in Swift (Float, Double, Int, etc.) it will display without grouping separators. By default a number like 4,592,028.0 will display like: `4592028.0`
-If you need to display currency, you will want to show the currency symbol ($, €, ¥, £, etc.).Displaying the correct currency symbol can get complex pretty quickly – thankfully, Apple has you covered and provides a solution with the `NSNumberFormatter` class. It can take care of displaying the correct symbol based on your user’s location in addition to any rules for decimal separators and grouping separators.* In the USA: $3,490,000.89
+If you need to display currency, you will want to show the currency symbol ($, €, ¥, £, etc.).<script src="https://app.convertkit.com/landing_pages/5573.js"></script>
+Displaying the correct currency symbol can get complex pretty quickly – thankfully, Apple has you covered and provides a solution with the `NSNumberFormatter` class. It can take care of displaying the correct symbol based on your user’s location in addition to any rules for decimal separators and grouping separators.* In the USA: $3,490,000.89
 * In France: 3 490 000,89 €
 * In Germany: 3.490.000,89 €
 
