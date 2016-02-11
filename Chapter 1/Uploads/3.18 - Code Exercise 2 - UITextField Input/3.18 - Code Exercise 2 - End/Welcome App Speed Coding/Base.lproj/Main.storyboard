@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Welcome_App_Speed_Coding" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-wn-ns4">
+                                <rect key="frame" x="268" y="28" width="64" height="30"/>
+                                <state key="normal" title="Press Me"/>
+                                <connections>
+                                    <action selector="buttonsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTe-wb-U3E"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7A-mh-gD4">
+                                <rect key="frame" x="278" y="66" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Paul" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mmg-1T-YGv">
+                                <rect key="frame" x="20" y="95" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mmg-1T-YGv" firstAttribute="top" secondItem="I7A-mh-gD4" secondAttribute="bottom" constant="8" id="1Uz-1X-6gP"/>
+                            <constraint firstItem="I7A-mh-gD4" firstAttribute="centerX" secondItem="LRj-wn-ns4" secondAttribute="centerX" id="NLZ-o0-heQ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Mmg-1T-YGv" secondAttribute="leading" id="POZ-Re-jXq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mmg-1T-YGv" secondAttribute="trailing" id="jaX-Od-7Ko"/>
+                            <constraint firstItem="LRj-wn-ns4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kzf-OE-4H4"/>
+                            <constraint firstItem="I7A-mh-gD4" firstAttribute="top" secondItem="LRj-wn-ns4" secondAttribute="bottom" constant="8" id="uAm-Tr-Kon"/>
+                            <constraint firstItem="LRj-wn-ns4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="wuj-Va-vJd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstLabel" destination="I7A-mh-gD4" id="5PS-yd-A6h"/>
+                        <outlet property="textField" destination="Mmg-1T-YGv" id="ZiN-pQ-Le0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="359"/>
+        </scene>
+    </scenes>
+</document>

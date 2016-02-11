@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE4AC991BF77A4E00C6BD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4AC981BF77A4E00C6BD4A /* AppDelegate.swift */; };
+		BDE4AC9B1BF77A4E00C6BD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE4AC9A1BF77A4E00C6BD4A /* ViewController.swift */; };
+		BDE4AC9E1BF77A4E00C6BD4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE4AC9C1BF77A4E00C6BD4A /* Main.storyboard */; };
+		BDE4ACA01BF77A4E00C6BD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE4AC9F1BF77A4E00C6BD4A /* Assets.xcassets */; };
+		BDE4ACA31BF77A4E00C6BD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE4ACA11BF77A4E00C6BD4A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDE4AC951BF77A4E00C6BD4A /* Welcome App Speed Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Welcome App Speed Coding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE4AC981BF77A4E00C6BD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDE4AC9A1BF77A4E00C6BD4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDE4AC9D1BF77A4E00C6BD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE4AC9F1BF77A4E00C6BD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDE4ACA21BF77A4E00C6BD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDE4ACA41BF77A4E00C6BD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE4AC921BF77A4E00C6BD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE4AC8C1BF77A4E00C6BD4A = {
+			isa = PBXGroup;
+			children = (
+				BDE4AC971BF77A4E00C6BD4A /* Welcome App Speed Coding */,
+				BDE4AC961BF77A4E00C6BD4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE4AC961BF77A4E00C6BD4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE4AC951BF77A4E00C6BD4A /* Welcome App Speed Coding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE4AC971BF77A4E00C6BD4A /* Welcome App Speed Coding */ = {
+			isa = PBXGroup;
+			children = (
+				BDE4AC981BF77A4E00C6BD4A /* AppDelegate.swift */,
+				BDE4AC9A1BF77A4E00C6BD4A /* ViewController.swift */,
+				BDE4AC9C1BF77A4E00C6BD4A /* Main.storyboard */,
+				BDE4AC9F1BF77A4E00C6BD4A /* Assets.xcassets */,
+				BDE4ACA11BF77A4E00C6BD4A /* LaunchScreen.storyboard */,
+				BDE4ACA41BF77A4E00C6BD4A /* Info.plist */,
+			);
+			path = "Welcome App Speed Coding";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE4AC941BF77A4E00C6BD4A /* Welcome App Speed Coding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE4ACA71BF77A4E00C6BD4A /* Build configuration list for PBXNativeTarget "Welcome App Speed Coding" */;
+			buildPhases = (
+				BDE4AC911BF77A4E00C6BD4A /* Sources */,
+				BDE4AC921BF77A4E00C6BD4A /* Frameworks */,
+				BDE4AC931BF77A4E00C6BD4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Welcome App Speed Coding";
+			productName = "Welcome App Speed Coding";
+			productReference = BDE4AC951BF77A4E00C6BD4A /* Welcome App Speed Coding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE4AC8D1BF77A4E00C6BD4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Paul Solt";
+				TargetAttributes = {
+					BDE4AC941BF77A4E00C6BD4A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BDE4AC901BF77A4E00C6BD4A /* Build configuration list for PBXProject "Welcome App Speed Coding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE4AC8C1BF77A4E00C6BD4A;
+			productRefGroup = BDE4AC961BF77A4E00C6BD4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE4AC941BF77A4E00C6BD4A /* Welcome App Speed Coding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE4AC931BF77A4E00C6BD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE4ACA31BF77A4E00C6BD4A /* LaunchScreen.storyboard in Resources */,
+				BDE4ACA01BF77A4E00C6BD4A /* Assets.xcassets in Resources */,
+				BDE4AC9E1BF77A4E00C6BD4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE4AC911BF77A4E00C6BD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE4AC9B1BF77A4E00C6BD4A /* ViewController.swift in Sources */,
+				BDE4AC991BF77A4E00C6BD4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDE4AC9C1BF77A4E00C6BD4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE4AC9D1BF77A4E00C6BD4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE4ACA11BF77A4E00C6BD4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE4ACA21BF77A4E00C6BD4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE4ACA51BF77A4E00C6BD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDE4ACA61BF77A4E00C6BD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE4ACA81BF77A4E00C6BD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Welcome App Speed Coding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulsolt.Welcome-App-Speed-Coding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDE4ACA91BF77A4E00C6BD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Welcome App Speed Coding/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paulsolt.Welcome-App-Speed-Coding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE4AC901BF77A4E00C6BD4A /* Build configuration list for PBXProject "Welcome App Speed Coding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE4ACA51BF77A4E00C6BD4A /* Debug */,
+				BDE4ACA61BF77A4E00C6BD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE4ACA71BF77A4E00C6BD4A /* Build configuration list for PBXNativeTarget "Welcome App Speed Coding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE4ACA81BF77A4E00C6BD4A /* Debug */,
+				BDE4ACA91BF77A4E00C6BD4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE4AC8D1BF77A4E00C6BD4A /* Project object */;
+}
