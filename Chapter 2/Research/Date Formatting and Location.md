@@ -7,6 +7,11 @@ https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLL
 
 http://nshipster.com/core-location-in-ios-8/
 
+# Dark Sky #
+
+https://api.forecast.io/forecast/API_KEY/43.161030,-77.610922
+https://developer.forecast.io/docs/v2
+
 1. Get your (Latitude, Longitude) for your city location
 	1. http://www.latlong.net
 	2. Rochester, NY is (43.161030, -77.610922)
