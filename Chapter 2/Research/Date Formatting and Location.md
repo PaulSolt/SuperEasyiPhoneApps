@@ -3,6 +3,13 @@ Core Location Updates
 
 http://stackoverflow.com/questions/24050633/implement-cllocationmanagerdelegate-methods-in-swift/24056771#24056771
 
+https://developer.apple.com/library/ios/documentation/CoreLocation/Reference/CLLocationManager_Class/#//apple_ref/occ/clm/CLLocationManager/locationServicesEnabled
+
+http://nshipster.com/core-location-in-ios-8/
+
+1. Get your (Latitude, Longitude) for your city location
+	1. http://www.latlong.net
+	2. Rochester, NY is (43.161030, -77.610922)
 
 Use NSLocationAlwaysUsageDescription for apps that want to use the device's location even when the app is not open and being used.
 
@@ -74,6 +81,7 @@ http://www.codingexplorer.com/swiftly-getting-human-readable-date-nsdateformatte
 * https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/URLLoadingSystem/NSURLSessionConcepts/NSURLSessionConcepts.html
 
 ## Auto Layout and Adaptive Displays ##
+
 
 Really only for iPad/iPhone landscape. 
 
