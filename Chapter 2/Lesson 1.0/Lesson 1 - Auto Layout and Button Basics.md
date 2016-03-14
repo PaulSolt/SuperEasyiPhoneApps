@@ -20,6 +20,10 @@ You can use any image editor tool to create artwork for your iPhone apps, or you
 	2. On iPhone 6S with a 2x scale that is 60 pixels tall
 2. iPad buttons might be 15-25% bigger than iPhone buttons
 
+### Links ###
+
+* [Sketch 3 for Mac](http://www.sketchapp.com)
+
 ## 1.3 Tutorial - How to Import New Buttons Background Images Into Xcode ##
 
 1. Add images to the Asset Catalog by drag-and-drop
