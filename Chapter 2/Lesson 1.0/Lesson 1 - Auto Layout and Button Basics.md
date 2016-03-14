@@ -1,5 +1,11 @@
-# 1.0 Lesson - Auto Layout and Button Basics #
+# 1.0 Lesson - Auto Layout for Beginners #
 
+Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
+[SuperEasyApps.com](http://SuperEasyApps.com)
+
+-----
+
+* [1.0 Lesson - Auto Layout for Beginners](LINK)
 
 ## 1.1 Lecture - Auto Layout for Beginners ##
 
