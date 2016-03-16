@@ -20,16 +20,15 @@ The first step is to block out the user interface using the Storyboard file. Add
 
 <img src="images/WeatherAppStoryboard.png" alt="" style="width: 350px; border:1px solid gray;"/>
 
-1. Add the weather icons to your asset catalog
-2. Set the background color to a bright yellow color: #F0F418
-3. Add a city UILabel to the top middle
+1. Set the background color to a bright yellow color: #F0F418
+2. Add a city UILabel to the top middle
 	1. Text: Your city name (i.e.: "Rochester")
-4. Add a date UILabel centered below the city label
+3. Add a date UILabel centered below the city label
 	1. Text: Today's date (i.e.: "March 16")
-5. Add a white UIView to the center:
+4. Add a white UIView to the center:
 	1. Size: 400x400 points
 	2. Rename it to: "WeatherView"
-6. Inside the white subview add:
+5. Inside the white subview add:
 	1. Add a UIImageView to hold the current weather icon
 		1. Size: 50x50 points
 		2. Position: top left corner
@@ -43,7 +42,18 @@ The first step is to block out the user interface using the Storyboard file. Add
 		1. Text: "Sunny"
 		2. Font: System 17.0
 
-## 2.3 Lecture - Create Auto Layout Connections ##
+## 2.3 Lecture - Add Weather Images to Asset Catalog ##
+
+Add the weather icons to your asset catalog. There are three images for each weather icon:
+
+1. 1x (no @1x extension)
+2. 2x (retina icon for iPhone 4S to iPhone 6S)
+3. 3x (retina icon for iPhone 6S+)
+
+
+
+
+## 2.4 Lecture - Create Auto Layout Constraints for Adaptive UI ##
 
 Your UI needs to adapt to different screen sizes. On iPhone you can't design for static pixel positions, instead you will establish rules for where UI needs to move. You can setup relative positions and widths to enable your UI to adapt to wider or taller iPhones.
 
@@ -78,7 +88,7 @@ Your UI needs to adapt to different screen sizes. On iPhone you can't design for
 5. Add a ratio percentage based 
 6. Update the frames using: `Command + Option + =`
 
-## 2.4 Bug Fix - Troubleshooting Auto Layout Constraints ##
+## 2.5 Bug Fix - Troubleshooting Auto Layout Constraints ##
 
 If you make a mistake adding constraints you can end of with rules that confuse the iPhone layout. For example, you might tell a view to be 40 points wide and as a separate rule tell it that it must be 80 points wide. When layout constraints can't be followed you have unsatisfied constraints.
 
@@ -100,7 +110,7 @@ If you make a mistake adding constraints you can end of with rules that confuse 
 2. Orange: constraints are missing (ambiguous layout)
 3. Red: constraints are conflicting
 
-## 2.5 Lecture - Size Classes and Auto Layout ##
+## 2.6 Lecture - Size Classes and Auto Layout ##
 
 Size classes allow you to make bigger UI changes to your application to support portrait and landscape orientations on iPhone. You can also provide a custom user interface for iPhone 6S+ and the iPad. Size classes are also important if your app supports popups or multitasking where your app can appear on the side of another app on iPad.
 
@@ -123,7 +133,7 @@ Size classes enable you to create custom, rearranged, or resized interfaces. Swi
 
 You can further customize each of these layouts by installing or uninstalling constraints (Command + Delete) a constraint or view.
 
-## 2.6 Lecture - App Icons for App Store and iOS Devices ##
+## 2.7 Lecture - App Icons for App Store and iOS Devices ##
 
 App Icons should be 1024x1024 big when you create them and you'll need to export smaller versions to include within Xcode. Using Sketch you can make new app icons at the resolution 1024x1024.
 
@@ -148,7 +158,7 @@ If you distribute your app Adhoc (not via TestFlight) you will need to add the i
 * [Sketch App - sketchapp.com](https://www.sketchapp.com)
 * [IconKit - Mac App Store](https://itunes.apple.com/us/app/iconkit-icon-resizer-for-app/id507135296?mt=12)
 
-## 2.7 Lecture - Background Images for the Weather App ##
+## 2.8 Lecture - Background Images for the Weather App ##
 
 You can add a background image for your weather app by adding new images and setting up a UIImageView to match the size of the screen with an aspect fill.
 
