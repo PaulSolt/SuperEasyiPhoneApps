@@ -5,7 +5,7 @@ Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
 
 -----
 
-* [1.0 Lesson - Auto Layout for Beginners](LINK)
+* [1.0 Lesson - Auto Layout for Beginners](http://courses.supereasyapps.com/courses/chapter-2-super-easy-app-ui/lectures/878543)
 
 ## 1.1 Lecture - Auto Layout for Beginners ##
 
@@ -80,6 +80,11 @@ The Stack View is a new addition to iPhone UI that helps you layout content vert
 1. Duplicate the Vertical Button Stack View
 2. Change it to Horizontal
 3. Add a Leading constraint and a trailing constraint (Document Outline)
+
+### Links ###
+
+* [Stack Views Reference](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIStackView_Class_Reference/)
+* [Stack View Guide](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/LayoutUsingStackViews.html#//apple_ref/doc/uid/TP40010853-CH11-SW1)
 
 ## 1.6 Tutorial - How to Create Background Images and Layers ##
 
