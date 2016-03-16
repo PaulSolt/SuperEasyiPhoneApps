@@ -1,4 +1,11 @@
-Lesson 2 - Auto Layout and App Design by Example
+# Lesson 2 - Weather App UI by Example #
+
+Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
+[SuperEasyApps.com](http://SuperEasyApps.com)
+
+-----
+
+* 2.0 Lesson - Weather App UI By Example
 
 ## 2.1 Lecture - Weather App ##
 
@@ -13,15 +20,16 @@ The first step is to block out the user interface using the Storyboard file. Add
 
 <img src="images/WeatherAppStoryboard.png" alt="" style="width: 350px; border:1px solid gray;"/>
 
-1. Set the background color to a bright yellow color: #F0F418
-2. Add a city UILabel to the top middle
+1. Add the weather icons to your asset catalog
+2. Set the background color to a bright yellow color: #F0F418
+3. Add a city UILabel to the top middle
 	1. Text: Your city name (i.e.: "Rochester")
-3. Add a date UILabel centered below the city label
+4. Add a date UILabel centered below the city label
 	1. Text: Today's date (i.e.: "March 16")
-4. Add a white UIView to the center:
+5. Add a white UIView to the center:
 	1. Size: 400x400 points
 	2. Rename it to: "WeatherView"
-5. Inside the white subview add:
+6. Inside the white subview add:
 	1. Add a UIImageView to hold the current weather icon
 		1. Size: 50x50 points
 		2. Position: top left corner
@@ -41,11 +49,13 @@ Your UI needs to adapt to different screen sizes. On iPhone you can't design for
 
 ### Auto Layout Part 1 ###
 
+<img src="images/AutoLayoutPart1.png" alt="" style="width: 350px; border:1px solid gray;"/>
+
 1. Date and City labels
 	1. Add constraints to center horizontally and vertically
 2. WeatherView
 	1. Center vertically and horizontally
-	2. Add aspect ratio 1:1
+	2. Add aspect ratio: 1:1
 	3. Equal widths to view (containing view)
 		1. Constant: 0
 		2. Multiplier: 70%
@@ -53,10 +63,15 @@ Your UI needs to adapt to different screen sizes. On iPhone you can't design for
 
 ### Auto Layout Part 2 ###
 
+<img src="images/AutoLayoutPart2.png" alt="" style="width: 350px; border:1px solid gray;"/>
+
 1. Weather icon
 	1. Add the leading and top space to container constraints
+	2. Add width: 50
+	3. Add aspect ratio: 1:1
 2. Degree label
-	1. Add a top and horizontal spacing constraint from the temperature label
+	1. Add a top layout constraint
+	2. Add a horizontal spacing constraint with constant: 0
 3. Weather summary
 	1. Add a vertical spacing and center horizontally constraint
 4. Center the white square inside the container (view)
@@ -76,6 +91,8 @@ If you make a mistake adding constraints you can end of with rules that confuse 
 5. Remove any constraints that are conflicting to resolve layout issues (delete key)
 6. Resize labels using `Command + =` before adding constraints
 7. Add more constraints to define both size and position
+8. Update frames with `Option + Command + =`
+9. Clipped "..." text: resize labels with `Command + =`
 
 ### Color Coded Constraints ###
 
@@ -86,6 +103,8 @@ If you make a mistake adding constraints you can end of with rules that confuse 
 ## 2.5 Lecture - Size Classes and Auto Layout ##
 
 Size classes allow you to make bigger UI changes to your application to support portrait and landscape orientations on iPhone. You can also provide a custom user interface for iPhone 6S+ and the iPad. Size classes are also important if your app supports popups or multitasking where your app can appear on the side of another app on iPad.
+
+<img src="images/SizeClasses.png" alt="" style="width: 250px; border:1px solid gray;"/>
 
 ### Default Size Class ###
 
@@ -108,6 +127,8 @@ You can further customize each of these layouts by installing or uninstalling co
 
 App Icons should be 1024x1024 big when you create them and you'll need to export smaller versions to include within Xcode. Using Sketch you can make new app icons at the resolution 1024x1024.
 
+<img src="images/AppIcons.png" alt="" style="width: 250px; border:1px solid gray;"/>
+
 ### Submitting an iPhone App ###
 
 When you upload your app to Apple for the App Store or Test Flight, you must upload a 1024x1024 JPG or PNG image.
@@ -118,7 +139,7 @@ Your iPhone app project has an AppIcon entry in the Asset Catalog that has a lis
 
 ### Adhoc App Icon ###
 
-If you distribute your app adhoc (not via TestFlight) you will need to add the iTunesArtwork and iTunesArtwork@2x files to your Xcode project (not asset catalog).
+If you distribute your app Adhoc (not via TestFlight) you will need to add the iTunesArtwork and iTunesArtwork@2x files to your Xcode project (not asset catalog).
 
 ### Links ###
 
@@ -132,3 +153,5 @@ If you distribute your app adhoc (not via TestFlight) you will need to add the i
 You can add a background image for your weather app by adding new images and setting up a UIImageView to match the size of the screen with an aspect fill.
 
 If you use images, you would need to have a collection of different images to cycle through based on the current weather conditions. Apple uses animated backgrounds, while other weather apps use images from Flickr.
+
+<img src="images/BermudaWeather.png" alt="" style="width: 250px; border:1px solid gray;"/>
