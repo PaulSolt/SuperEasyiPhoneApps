@@ -180,3 +180,36 @@ You can add a background image for your weather app by adding new images and set
 If you use images, you would need to have a collection of different images to cycle through based on the current weather conditions. Apple uses animated backgrounds, while other weather apps use images from Flickr.
 
 <img src="images/BermudaWeather.png" alt="" style="width: 250px; border:1px solid gray;"/>
+
+## 2.9 Code Exercise - Calculator App UI With Auto Layout ##
+
+Design a simple calculator layout using Xcode and setup the Auto Layout constraints so that it adapts to different sized iPhones in portrait orientation. Recreating the app UI for existing apps is a good way to learn how to design UI in Xcode, as well as setting up the constraints.
+
+### Align and Pin Buttons ###
+
+Take advantage of the Align and Pin buttons in the bottom right corner of Xcode to align and position multiple UI elements at the same time.
+
+<img src="images/CalculatorApp.png" alt="" style="width: 250px; border:1px solid gray;"/>
+
+## 2.10 Solution - Calculator App UI With Auto Layout ##
+
+As you add more UI elements to your app, it requires more time to setup the layout constraints. Make sure you preview the resulting app using the Preview mode in the Assistant Editor.
+
+<img src="images/CalculatorUI.png" alt="" style="width: 250px; border:1px solid gray;"/>
+
+### Troubleshooting Auto Layout ###
+
+* Rounding issues in Xcode can make some complex layouts look off
+* Rounding issues with Preview can make layouts look incorrect (half pixels)
+* Test on the iPhone simulators or real device to confirm actual layout
+* Making some constraints 999 (optional) instead of 1000 (required) can help make UI "fail" at known points
+
+### Links ###
+
+* [Conflicting Layouts - apple.com](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/ConflictingLayouts.html) 
+
+## 2.11 Quiz - App UI and Auto Layout ##
+
+Take the quiz:
+
+* 2.11 Quiz - App UI and Auto Layout
