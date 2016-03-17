@@ -1,4 +1,4 @@
-# Lesson 2 - Weather App UI and Auto Layout #
+# Lesson 2 - Weather App UI #
 
 Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
 [SuperEasyApps.com](http://SuperEasyApps.com)
