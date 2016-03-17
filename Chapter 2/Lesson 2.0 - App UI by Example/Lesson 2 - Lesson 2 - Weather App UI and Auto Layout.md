@@ -1,13 +1,13 @@
-# Lesson 2 - Weather App UI by Example #
+# Lesson 2 - Weather App UI and Auto Layout #
 
 Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
 [SuperEasyApps.com](http://SuperEasyApps.com)
 
 -----
 
-* 2.0 Lesson - Weather App UI By Example
+* [2.0 Lesson - Weather App UI and Auto Layout](http://courses.supereasyapps.com/courses/chapter-2-super-easy-app-ui/lectures/882350)
 
-## 2.1 Lecture - Weather App ##
+## 2.1 Lecture - Weather App and Auto Layout##
 
 You will learn how to create the UI (user interface) for a simple weather app. You can use Auto Layout to design the look and feel of your app, and its appearance on different sized iPhone devices.
 
@@ -131,7 +131,22 @@ Size classes enable you to create custom, rearranged, or resized interfaces. Swi
 
 ### Installing and Uninstalling Constraints ###
 
-You can further customize each of these layouts by installing or uninstalling constraints (Command + Delete) a constraint or view.
+Don't delete views with the `Delete` key! It will break your working app UI for the other size classes!
+
+You can customize size classes and redesign the layouts by installing or uninstalling constraints (`Command + Delete`). Or clicking on the checkbox next to `Install`.
+
+### Careful Adapting Your User Interfaces ###
+
+Size classes can help with landscape and portrait layouts, but there isn't an easy way to reset size class in Xcode. If you want to reset the layout for a size class, you need to remove constraints and views one by one.
+
+1. You can add more constraints to smaller or larger size classes, just make sure you don't conflict with constraints in your other size classes.
+2. Version control is really important (git + github) when you start doing more work with size classes.
+3. You can remove changes for a size class by going through each view and constraint one by one uninstalling or deleting old constraints (grayed out views/constraints).
+
+### Links ###
+
+* [About Designing for Multiple Size Classes](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/chapters/AboutAdaptiveSizeDesign.html#//apple_ref/doc/uid/TP40014436-CH6-SW1)
+* [Adaptive User Interfaces - JessieSquires.com](http://www.jessesquires.com/adaptive-user-interfaces/)
 
 ## 2.7 Lecture - App Icons for App Store and iOS Devices ##
 
@@ -149,7 +164,7 @@ Your iPhone app project has an AppIcon entry in the Asset Catalog that has a lis
 
 ### Adhoc App Icon ###
 
-If you distribute your app Adhoc (not via TestFlight) you will need to add the iTunesArtwork and iTunesArtwork@2x files to your Xcode project (not asset catalog).
+If you distribute your app Adhoc (not via TestFlight) you will need to add the iTunesArtwork and iTunesArtwork@2x (no extension) files to your Xcode project (not asset catalog).
 
 ### Links ###
 
