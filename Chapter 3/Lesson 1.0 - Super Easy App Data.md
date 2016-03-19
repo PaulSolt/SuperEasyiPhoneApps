@@ -24,6 +24,10 @@ place["population"]
 place["best food"] // nil
 ```
 
+### Links ###
+
+* [Collection Types - Dictionary](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html) 
+
 ## 1.3 Tutorial - Swift Array ##
 
 The Swift `Array` collection allows you to store multiple objects or values. It is a building block combined with the Dictionary type for storing multiple pieces of information.
@@ -38,6 +42,10 @@ favoriteFood[0]
 favoriteFood[1]
 favoriteFood[2]
 ```
+
+### Links ###
+
+* [Collection Types - Array](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/CollectionTypes.html) 
 
 
 ## 1.4 Tutorial - JSON and Web Services ##
@@ -67,6 +75,10 @@ do {
 }
 ```
 
+### Links ###
+
+* [NSJSONSerialization - apple.com](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/)
+
 ## 1.6 Parsing JSON Data With Swift ##
 
 As you work with web data, you will have to write code that is more robust that can handle situations when data is missing. Optional types allow you to capture information when it exists as well as when it doesn't.
@@ -76,7 +88,7 @@ As you work with web data, you will have to write code that is more robust that 
     
     if let personData = json as? [String : AnyObject] {
         
-        personData["FirstName"].dynamicType
+        personData["FirstName"]
         personData["lastName"] // nil ... case sensitive
         personData["LastName"]
         personData["FavoriteFoods"] // array
