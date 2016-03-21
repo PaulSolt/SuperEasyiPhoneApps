@@ -92,6 +92,8 @@ do {
 ### Links ###
 
 * [NSJSONSerialization - apple.com](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/)
+* [NSBundle URLForResource - apple.com](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSBundle_Class/#//apple_ref/occ/instm/NSBundle/URLForResource:withExtension:)
+* [Error Handling in Swift](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ErrorHandling.html)
 
 ## 1.6 Parsing JSON Data With Swift ##
 
@@ -122,7 +124,11 @@ if let personData = json as? [String : AnyObject] { // Swift Dictionary
 }
 ```
 
-1.7 Quiz - Data and JSON
+## 1.7 Quiz - Data and JSON ##
+
+Take the quiz:
+
+* 1.7 Quiz - Data and JSON
 
 
 
