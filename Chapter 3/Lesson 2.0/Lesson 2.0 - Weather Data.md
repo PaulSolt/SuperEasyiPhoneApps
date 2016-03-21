@@ -163,8 +163,8 @@ func requestWeather() {
 * [NSJSONSerialization - apple.com](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/)
 * [NSHTTPURLResponse - apple.com](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSHTTPURLResponse_Class/)
 
-## 2.7 Tutorial - Parse the JSON Data as Swift Dictionary Types ##
 
+## 2.7 Tutorial - Parse the JSON Data as Swift Dictionary Types ##
 
 1. Create a new method called parseWeather() that will take a Dictionary parameter.
 
@@ -173,10 +173,10 @@ func requestWeather() {
 	}
 	```
 
-2. Convert the `AnyObject` JSON data into a Swift dictionary of type [String: AnyObject] and send it to the `parseWeather()` method.
+2. Below the `let json = try ...` line, convert json `AnyObject` data into a Swift dictionary of type [String: AnyObject] and send it to the `parseWeather()` method.
 
 
-	 ```
+	```swift
 	// 4. Convert data to JSON (swift error handling)
 	do {
 		let json = try NSJSONSerialization.JSONObjectWithData(data, options: [])
@@ -199,8 +199,6 @@ func requestWeather() {
 		
 		if let currentWeather = weatherJSON["currently"] as? Dictionary<String, AnyObject> {
 			print("currently:", currentWeather)
-			
-			
 			if let temperature = currentWeather["temperature"] as? Float {
 				print("temperature:", temperature)
 			}
@@ -210,7 +208,6 @@ func requestWeather() {
 			if let icon = currentWeather["icon"] as? String {
 				print("icon:", icon)
 			}
-			
 			// Update the User Interface on the Main Thread
 		}
 	}
