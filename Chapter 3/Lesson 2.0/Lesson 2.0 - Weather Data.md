@@ -294,7 +294,7 @@ func updateWeather(weatherData: WeatherDataPoint) {
 ```
 
 
-## 2.7 Tutorial - Update the Weather Status Icon ##
+## 2.10 Tutorial - Update the Weather Status Icon ##
 
 1. The API documentation provides information on the icon's available values, which match your weather icon images. <https://developer.forecast.io/docs/v2>
 
@@ -343,7 +343,7 @@ func updateWeather(weatherData: WeatherDataPoint) {
 
 * [Control Flow - Switch - apple.com](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/ControlFlow.html)
 
-## 2.8 Tutorial - Update the Date With NSDateFormatter ##
+## 2.11 Tutorial - Update the Date With NSDateFormatter ##
 
 1. Add the code for updateDate() using the NSDateFormatter class
 
@@ -361,9 +361,6 @@ func updateWeather(weatherData: WeatherDataPoint) {
 	```swift
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		if apiKey == "YOUR_API_KEY" {
-			print("ERROR: Request an API key from https://developer.forecast.io")
-		}		
 		// make a request for weather
 		requestWeather()
 		updateDate()
@@ -403,7 +400,6 @@ func updateWeather(weatherData: WeatherDataPoint) {
 
 * [NSDateFormatter Reference - apple.com](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSDateFormatter_Class/)
 * [Date formatting symbols](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Field_Symbol_Table)
-
 
 
 
