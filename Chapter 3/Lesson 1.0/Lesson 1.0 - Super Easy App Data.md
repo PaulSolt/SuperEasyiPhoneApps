@@ -5,7 +5,7 @@ Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
 
 -----
 
-* 1.0 Lesson - iPhone App Data Basics LINK
+* [1.0 Lesson - iPhone App Data Basics](http://courses.supereasyapps.com/courses/chapter-3-super-easy-app-data/lectures/896986)
 
 
 ## 1.1 Lecture - iPhone App Data Basics ##
@@ -130,11 +130,11 @@ if let personData = json as? [String : AnyObject] { // Swift Dictionary
 }
 ```
 
-## 1.7 Quiz - Data and JSON ##
+## 1.7 Quiz - App Data and JSON ##
 
 Take the quiz:
 
-* 1.7 Quiz - Data and JSON LINK
+* [1.7 Quiz - App Data and JSON](http://courses.supereasyapps.com/courses/chapter-3-super-easy-app-data/lectures/898900#/questions/1)
 
 
 

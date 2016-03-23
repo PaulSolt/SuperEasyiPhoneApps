@@ -5,7 +5,7 @@ Paul Solt - [Paul@SuperEasyApps.com](mailto:Paul@SuperEasyApps.com)
 
 -----
 
-* 2.0 Lesson - Weather App Data LINK
+* [2.0 Lesson - Weather App Data](http://courses.supereasyapps.com/courses/chapter-3-super-easy-app-data/lectures/896987)
 
 
 ## 2.1 Lecture - Weather Web Services and App Data ##
@@ -400,6 +400,3 @@ func updateWeather(weatherData: WeatherDataPoint) {
 
 * [NSDateFormatter Reference - apple.com](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSDateFormatter_Class/)
 * [Date formatting symbols](http://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Field_Symbol_Table)
-
-
-
