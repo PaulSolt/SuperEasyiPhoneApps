@@ -17,18 +17,6 @@ Paul Solt
 
 import UIKit
 
-do {
-var currencyFormatter = NumberFormatter()
-currencyFormatter.usesGroupingSeparator = true
-currencyFormatter.numberStyle = .currency
-// localize to your grouping and decimal separator
-currencyFormatter.locale = Locale.current
-var priceString = currencyFormatter.string(from: 9999.99)!
-print(priceString) // Displays $9,999.99 in the US locale
-    
-}
-
-
 let currencyFormatter = NumberFormatter()
 currencyFormatter.usesGroupingSeparator = true
 currencyFormatter.numberStyle = .currency
